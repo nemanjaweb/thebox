@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.5.2/dist/flowbite.min.css"
+    />
+
+    <title>The Box</title>
+  </head>
+  <body>
+    <!--Navigation-->
+    <section class="h-auto">
+      <nav class="bg-white px-2 sm:px-4 py-2.5 rounded">
+        <div
+          class="container flex flex-wrap items-center justify-between mx-auto"
+        >
+          <a
+            href="#"
+            class="flex items-center justify-center md:ml-120px ml-33px"
+          >
+            <img
+              src="./img/logo.jpg"
+              class="mr-12px pt-14px h-logo-height w-logo-width sm:h-9 md:w-big-logo-width md:h-big-logo-height"
+              alt="logo"
+            />
+            <span
+              class="self-center font-semibold whitespace-nowrap dark:text-white h-logo-text-height w-logo-text-width md:w-big-logo-text-width md:h-big-logo-text-height"
+              ><img src="./img/logo_text.png" class="pt-2" alt="logo_text"
+            /></span>
+          </a>
+          <button
+            data-collapse-toggle="navbar-default"
+            type="button"
+            class="inline-flex items-center text-sm rounded-lg mr-21px md:hidden focus:outline-none"
+            aria-controls="navbar-default"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-6 h-6"
+              aria-hidden="true"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"
+              ></path>
+            </svg>
+          </button>
+          <div
+            class="hidden w-full md:block md:w-auto md:mr-82px"
+            id="navbar-default"
+          >
+            <ul
+              class="flex flex-col mt-4 text-13px md:flex-row md:space-x-22px md:mt-0 md:text-sm text-nav_color"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 rounded md:bg-transparent md:p-0 hover:text-contact"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 md:p-0 hover:text-contact"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 md:p-0 hover:text-contact"
+                  >Projects</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 md:p-0 hover:text-contact"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-contact md:hover:bg-transparent md:p-0 hover:text-nav_color"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--Hero Section-->
+
+    <section
+      style="background-image: url('./img/hero.jpg')"
+      class="relative flex flex-col w-full h-screen bg-center bg-no-repeat bg-cover"
+    >
+      <div>
+        <h2 class="font-semibold text-53px pt-65px pl-32px">
+          Building things <br />is our mission.
+        </h2>
+      </div>
+      <div
+        class="box-content absolute bottom-0 right-0 content-center text-white bg-button"
+      >
+        <h3 class="font-bold text-15px pt-14px pl-91px pr-91px">
+          Feature Projects
+        </h3>
+
+        <p
+          class="pb-12 font-normal text-center text-18px pt-14px pl-38px pr-38px"
+        >
+          The National University of <br />
+          Architecture
+        </p>
+
+        <div
+          class="absolute bottom-0 flex content-center justify-between w-full cursor-pointer text-18px bg-arrows"
+        >
+          <div class="flex">
+            <img
+              class="ml-47px w-arrow h-arrow-h"
+              src="./img/left-arrow.svg"
+              alt="left arrow"
+            />
+            Back
+          </div>
+          <span class="h-auto bg-white w-btn-line"></span>
+          <div class="flex">
+            Next<img
+              class="mr-47px w-arrow h-arrow-h"
+              src="./img/right-arrow.svg"
+              alt="right arrow"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Reputation-->
+    <section class="flex justify-center">
+      <div class="pt-38px">
+        <h2 class="mb-10 font-bold text-center text-24px">Our Reputation</h2>
+        <div class="p-4 border-2 rounded-sm border-border mb-26px">
+          <img src="./img/headphone.svg" alt="headphone" />
+          <h3 class="font-bold pt-14px text-15px">Best Services</h3>
+          <p class="font-normal pt-13px text-16px text-siva mb-29px mt-13px">
+            Nullam senectus porttitor in <br />
+            eget. Eget rutrum leo interdum.
+          </p>
+        </div>
+        <div class="p-4 border-2 rounded-sm border-border mb-26px">
+          <img " src="./img/headphone.svg" alt="headphone" />
+          <h3 class="font-bold pt-14px text-15px">Best Teams</h3>
+          <p class="font-normal pt-13px text-16px text-siva mb-29px mt-13px">
+            Cursus semper tellus volutpat <br />
+            aliquet lacus.
+          </p>
+        </div>
+        <div class="p-4 border-2 rounded-sm border-border mb-26px">
+          <img src="./img/pencil.svg" alt="pencil" />
+          <h3 class="font-bold pt-14px text-15px">Best Design</h3>
+          <p class="font-normal pt-13px text-16px text-siva mb-29px">
+            Ultricies at ipsum nunc,<br />
+            tristique nam lectus.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
+  </body>
+</html>
