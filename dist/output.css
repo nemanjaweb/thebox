@@ -983,6 +983,10 @@ input[type="range"]::-ms-fill-lower {
   margin-right: 47px;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-26px {
   margin-bottom: 26px;
 }
@@ -1208,10 +1212,6 @@ input[type="range"]::-ms-fill-lower {
 
 .pt-38px {
   padding-top: 38px;
-}
-
-.pt-6 {
-  padding-top: 1.5rem;
 }
 
 .pt-13px {
