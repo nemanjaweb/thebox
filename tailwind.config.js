@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontSize: {
       '2px': '2px',
+      '12px' : '12px',
       '13px' : '13px',
       '14px' : '14px',
       '15px' : '15px',
@@ -13,6 +14,7 @@ module.exports = {
       '27px' : '27px',
       '44px' : '44px',
       '53px': '53px',
+      '72px': '72px',
     },
     extend: {
       colors:{
@@ -69,6 +71,7 @@ module.exports = {
       padding: {
         '13px' : '13px',
         '14px': '14px',
+        '16px': '16px',
         '17px' : '17px',
         '18px' : '18px',
         '26px': '26px',
@@ -89,8 +92,12 @@ module.exports = {
       },
       spacing:{
         '7px' : '7px',
+        '9px' : '9px',
+        '10px' : '10px',
         '12px' : '12px',   
         '15px' : '15px',
+        '16px' : '16px',
+        '17px' : '17px',
         '19px' : '19px',
         '21px' : '21px',
         '22px' : '22px',
@@ -100,6 +107,7 @@ module.exports = {
         '30px': '30px',
         '33px' : '33px',
         '39px': '39px',
+        '41px': '41px',
         '47px': '47px',
         '51px': '51px',
         '76px': '76px',

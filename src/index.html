@@ -108,7 +108,7 @@
 
     <section
       style="background-image: url('./img/hero.jpg')"
-      class="relative flex flex-col w-full h-screen bg-center bg-no-repeat bg-cover"
+      class="relative flex flex-col w-full h-screen bg-cover p- bg-centerbg-no-repeat h-content"
     >
       <div>
         <h2 class="font-semibold text-53px pt-65px pl-32px">
@@ -130,23 +130,15 @@
         </p>
 
         <div
-          class="absolute bottom-0 flex content-center justify-between w-full cursor-pointer text-18px bg-arrows"
+          class="absolute bottom-0 flex justify-between w-full cursor-pointer text-18px bg-arrows"
         >
-          <div class="flex">
-            <img
-              class="ml-47px w-arrow h-arrow-h"
-              src="./img/left-arrow.svg"
-              alt="left arrow"
-            />
-            Back
-          </div>
+        <div class="flex py-2 ml-8 cursor-pointer bg-arrows mr-12px">
+          <img class="mr-7px" src="./img/left-arrow.svg" alt="">  
+          Back
+        </div>
           <span class="h-auto bg-white w-btn-line"></span>
-          <div class="flex">
-            Next<img
-              class="mr-47px w-arrow h-arrow-h"
-              src="./img/right-arrow.svg"
-              alt="right arrow"
-            />
+          <div class="flex py-2 mr-8 cursor-pointer bg-arrows">Next
+            <img class="ml-7px" src="./img/right-arrow.svg" alt="">
           </div>
         </div>
       </div>
@@ -156,6 +148,7 @@
     <section class="flex justify-center">
       <div class="pt-38px">
         <h2 class="mb-10 font-bold text-center text-24px">Our Reputation</h2>
+        <div class="">
         <div class="p-4 border-2 rounded-sm border-border mb-26px">
           <img src="./img/headphone.svg" alt="headphone" />
           <h3 class="font-bold pt-14px text-15px">Best Services</h3>
@@ -181,6 +174,7 @@
           </p>
         </div>
       </div>
+      </div>
     </section>
 
     <!--About-->
@@ -194,7 +188,7 @@
           <div class="flex flex-col text-14px pr-32px">
             <p>
               For more than 30 years we have been delivering world-class
-              construction and we’ve built many lasting relationships along the
+              construction and we've built many lasting relationships along the
               way.
             </p>
             <p class="mt-4">
@@ -213,13 +207,13 @@
     </section>
 
     <!--Services-->
-    <section class="flex justify-center bg-service mt-80">
+    <section class=" bg-service mt-80">
       <div>
         <h2 class="font-bold text-center pt-33px text-27px pb-32px">
           Services
         </h2>
-
         <!--Construction-->
+        <div class="flex flex-col items-center">
         <div class="p-4 bg-white rounded-sm w-198px border-border mb-26px">
           <div class="flex justify-center">
             <img src="./img/construction.svg" alt="construction" />
@@ -310,6 +304,7 @@
           </div>
         </div>
       </div>
+      </div>
     </section>
 
     <!--Experience Section-->
@@ -324,7 +319,46 @@
             clients throughout the USA since 1988.
           </p>   
         <div class="font-semibold text-center text-white border rounded-sm mt-30px text-13px bg-primary w-128px"><button class="px-2 py-3">Contact Us</button></div>
-      </divc>
+      </div>
+      <div class="grid grid-cols-2 grid-rows-6 pt-11">
+        <div class="relative col-start-2 border rounded-md mr-7">
+          <div class="absolute right-0 -top-8">
+            <img src="./img/grid-1.svg" alt="" width="64px" height="64px">
+          </div>
+          <div class="mt-3 ml-6">
+            <h2 class="font-medium text-72px">84</h2>
+            <p class="mb-3 ml-12 text-18px"><span class="w-1 h-3 bg-contact text-contact">!</span> Happy Clients</p>
+          </div>
+        
+        </div>
+        <div class="relative ml-4 border rounded-md">
+          <div class="absolute -top-5 -left-2">
+            <img src="./img/grid-2.svg" alt="">
+          </div>
+          <div class="mt-3 ml-6">
+            <h2 class="font-medium text-72px">123</h2>
+            <p class="mb-3 ml-12 text-18px"><span class="w-1 h-3 bg-contact text-contact">!</span> Projects Compleated</p>
+          </div>
+        </div>
+        <div class="relative col-start-2 row-start-3 mr-4 border rounded-md">
+          <div class="absolute right-0 -top-6">
+            <img src="./img/grid-3.svg" alt="">
+          </div>
+          <div class="mt-3 ml-6">
+            <h2 class="font-medium text-72px">37</h2>
+            <p class="mb-3 ml-12 text-18px"><span class="w-1 h-3 bg-contact text-contact">!</span> Awards Win</p>
+          </div>
+        </div>
+        <div class="relative row-start-4 ml-4 border rounded-md">
+          <div class="absolute -right-7 -bottom-7">
+            <img src="./img/grid-4.svg" alt="">
+          </div>
+          <div class="mt-3 ml-6">
+            <h2 class="font-medium text-72px">30</h2>
+            <p class="mb-3 ml-12 text-18px"><span class="w-1 h-3 bg-contact text-contact">!</span> Years in Business</p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!--Consultation-->
@@ -355,7 +389,7 @@
     </div>
 
     <!--Infra Hotel-->
-    <div class="flex flex-col items-center pt-51px">
+    <div class="flex flex-col items-center pt-51px ">
       <div class="flex flex-col w-281px">
         <div>
           <img src="./img/infra.svg" alt="Infra Hotel">
@@ -406,7 +440,8 @@
     <div class="flex justify-center font-normal text-white pt-19px text-18px">
       <div class="flex cursor-pointer bg-arrows py-17px px-33px mr-12px">
         <img class="mr-7px" src="./img/left-arrow.svg" alt="">  
-        Back</div>
+        Back
+      </div>
       <div class="flex cursor-pointer bg-arrows py-17px px-33px">Next
         <img class="ml-7px" src="./img/right-arrow.svg" alt="">
       </div>
@@ -415,33 +450,69 @@
 
   <!--Contact Section-->
   <section class="mt-47px bg-service">
-    <div class="flex flex-col items-center">
-      <h2 class="py-24px pt-38px">What can we do for you?</h2>
-      <p class="text-center px-24px">We are ready to work on a project of any complexity, whether it's commercial or residential.</p>
+    <div class="flex flex-col items-center text-arrows">
+      <h2 class="font-bold py-24px pt-38px text-27px ">What can we do for you?</h2>
+      <p class="text-center px-24px text-15px">We are ready to work on a project of any complexity, whether it's commercial or residential.</p>
     </div>
-    <div class="flex flex-col items-center ">
-      <form class="w-auto pt-39px" action="">
+    <div class="flex flex-col items-center pb-10 font-bold text-16px ">
+      <form class="w-auto pt-39px " action="">
         <label class="block">   
-          <input type="text" name="name" placeholder="Your Name*"  class="" />
+          <input type="text" name="name" placeholder="Your Name *"  class="rounded-sm" />
         </label>
         <label class="block">   
-          <input type="email" name="email" placeholder="Email*"  class="mt-2" />
+          <input type="email" name="email" placeholder="Email *"  class="mt-2 rounded-sm" />
         </label>       
         <label class="block">   
-          <input type="text" name="reason" placeholder="Reason for contacting*"  class="mt-2" />
+          <input type="text" name="reason" placeholder="Reason for contacting *"  class="mt-2 rounded-sm border-border" />
         </label>
         <label class="block">   
-          <input type="text" name="phone" placeholder="Phone*"  class="mt-2" />
+          <input type="text" name="phone" placeholder="Phone *"  class="mt-2 rounded-sm border-border" />
         </label> 
         <label class="block">    
-           <textarea rows="4" class="mt-2" placeholder="Your message..."></textarea>
+           <textarea rows="4" class="w-full mt-2 rounded-sm border-border" placeholder="Your message..."></textarea>
         </label> 
+        <p class="font-normal text-12px"><span class="font-bold text-red-600 text-16px">*</span> indicates a required file</p>
       </form>
-      <div class="flex">*<p>indicates a required file</p></div>
-     
+      <div class="font-semibold text-center text-white border rounded-sm mt-30px text-13px bg-primary "><button class="px-76px py-12px">Submit</button></div>
     </div>
-
   </section>
+
+  <!--Social Medias-->
+  <section>
+    <div class="pt-43px pl-16px">
+      <div class="flex flex-col items-start text-15px">
+        <p><span class="font-medium uppercase pr-10px text-primary">Address:</span>6391 Elgin St. Celina, Delaware 10299</p>
+        <p class="mt-24px"><span class="font-medium uppercase pr-24px text-primary ">Phone:</span>+84 1102 2703</p>
+        <p class="mt-24px"><span class="font-medium uppercase pr-30px text-primary ">Email:</span>hello@thebox.com</p>
+      </div>
+      <div class="flex mt-29px">
+        <img src="./img/footer-logo.svg" alt="footer logo" class="mr-10px">
+        <img src="./img/footer-text.svg" alt="footer logo text">
+      </div>
+      <div>
+        <p class="mt-39px"><span class="font-medium uppercase text-15px pr-10px text-primary">Newsletter:</span></p>
+        <div class="flex mt-15px">
+          <label class="block">   
+            <input type="text" name="phone" placeholder="Your email here"  class="py-2 mt-2 rounded-sm pr-120px text-18px border-border" />
+            <button class="font-semibold text-white rounded-md text-13px ml-7px py-9px px-22px bg-contact">Subscribe</button>
+          </label> 
+        </div>
+        <p class="mt-33px"><span class="font-medium uppercase text-15px pr-10px text-primary">social:</span></p>
+        <div class="flex mt-16px text- mb-47px">
+          <img src="./img/fb-icon.svg" alt="facebook">
+          <img src="./img/linkedin-icon.svg" alt="facebook" class="ml-17px">
+          <img src="./img/twitter-icon.svg" alt="facebook" class="ml-17px">
+        </div>
+      </div> 
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer>
+    <div class="text-white py-19px bg-primary pl-19px text-12px">
+      <h3>TheBox Company © 2022. All Rights Reserved</h3>
+    </div>
+  </footer>
     <script src="https://unpkg.com/flowbite@1.5.2/dist/flowbite.js"></script>
   </body>
 </html>
